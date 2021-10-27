@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvRecipeFinder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:paddingTop="15dp"
+        android:paddingLeft="85dp"
+        android:paddingBottom="15dp"
+        android:text="Recipe Finder"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/tvEnterInput"
+        android:layout_width="343dp"
+        android:layout_height="149dp"
+        android:fontFamily="casual"
+        android:paddingLeft="45dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Please enter all of the ingredients you have in your kitchen in a comma seperated list:"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <EditText
+        android:id="@+id/ingInput"
+        android:layout_width="335dp"
+        android:layout_height="213dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:paddingLeft="85dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <TextView
+        android:id="@+id/tvEnterInput2"
+        android:layout_width="341dp"
+        android:layout_height="78dp"
+        android:fontFamily="casual"
+
+        android:paddingLeft="85dp"
+        android:paddingBottom="15dp"
+        android:text="How many missing ingredients?"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <EditText
+        android:id="@+id/missingIngredient"
+        android:layout_width="336dp"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:paddingLeft="85dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="120dp"
+        android:layout_height="54dp"
+        android:fontFamily="casual"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="Submit"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="620dp" />
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/infoLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4CAF50"
+    android:orientation="vertical"
+    tools:context=".RecipeInfo">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/titleRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/ingredientsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Ingredients: "
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/listOfIng"
+                android:layout_width="match_parent"
+                android:layout_height="189dp"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/instructionsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Instructions: "
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/listOfInstructions"
+                android:layout_width="match_parent"
+                android:layout_height="535dp"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

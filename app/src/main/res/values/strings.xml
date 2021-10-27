@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RecipeFinder</string>
+    <string name="possible_recipes">Possible Recipes</string>
+    <string name="back">Back</string>
+    <string name="todo">TODO</string>
+    <string name="recipe_picture">Recipe Picture</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="instructions">Instructions:</string>
+    <string name="test">Test</string>
+    <string name="lolzie">lolzie</string>
+</resources>
